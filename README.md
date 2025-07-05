@@ -36,13 +36,4 @@ The solution ensures **smooth, explainable price variations** and offers optiona
 | **GitHub**   | Version control and submission platform |
 
 ---
-```mermaid
-flowchart TD
-    A[Real-time Data Ingestion via Pathway] --> B[Feature Engineering & Extraction]
-    B --> C[Model 1: Baseline Linear Pricing]
-    C --> D[Model 2: Demand-Based Pricing Model]
-    D --> E[Model 3: Competitive Pricing (Optional)]
-    E --> F[Price Adjustment & Smoothing]
-    F --> G[Output Price Predictions]
-    G --> H[Real-Time Visualization using Bokeh]
 
