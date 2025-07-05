@@ -36,4 +36,20 @@ The solution ensures **smooth, explainable price variations** and offers optiona
 | **GitHub**   | Version control and submission platform |
 
 ---
+📝 Architecture Diagram Description:
 
+This architecture shows the workflow of the dynamic pricing system:
+
+Real-time parking data is streamed using Pathway.
+
+Key features (occupancy, queue length, traffic, etc.) are extracted.
+
+Prices are updated using three models:
+
+Model 1: Simple linear pricing based on occupancy.
+
+Model 2: Demand-based pricing using multiple features.
+
+Model 3: Competitive pricing based on nearby parking lots.
+
+Prices are smoothed and visualized in real-time using Bokeh.
